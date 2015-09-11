@@ -124,7 +124,7 @@ deploy_command: 'wordmove push -t'
 ## Running specs
 
 ```bash
-bundle install && ./setup_tests.sh && rspec
+bundle install && ./bin/setup.sh && rspec
 ```
 
 We've noticed problems running tests while using `rvm`; all of them solved using `rbenv`.
